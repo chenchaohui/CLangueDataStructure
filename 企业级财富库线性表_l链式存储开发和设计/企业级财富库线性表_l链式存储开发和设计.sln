@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "企业级财富库线性表_l链式存储开发和设计", "企业级财富库线性表_l链式存储开发和设计\企业级财富库线性表_l链式存储开发和设计.vcxproj", "{A48326CA-17AF-4C42-92C7-9305C11CBE63}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A48326CA-17AF-4C42-92C7-9305C11CBE63}.Debug|Win32.ActiveCfg = Debug|Win32
+		{A48326CA-17AF-4C42-92C7-9305C11CBE63}.Debug|Win32.Build.0 = Debug|Win32
+		{A48326CA-17AF-4C42-92C7-9305C11CBE63}.Release|Win32.ActiveCfg = Release|Win32
+		{A48326CA-17AF-4C42-92C7-9305C11CBE63}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
