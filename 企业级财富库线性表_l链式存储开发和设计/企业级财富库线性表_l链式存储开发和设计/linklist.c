@@ -117,11 +117,15 @@ TlinkListNode* LinkList_Get(linklist* list, int pos)
    int i = 0;
    TlinkListNode *current = NULL;
    TLinkList *tlist  = (TLinkList *)list;
-   if ( list == NULL || pos < 0 || pos >= tlist->length)
+   if ( list == NULL || pos < 0 || pos >= tlist->length )
    {
 	   ret =-1;
 	   printf("func LinkList_Get parameter err %d",ret);
 	   return NULL;
+   }
+   if(tlist->length <= 0)
+   {
+	 return 0;  
    }
    //接下来就是找到节点
    //初始化环境
