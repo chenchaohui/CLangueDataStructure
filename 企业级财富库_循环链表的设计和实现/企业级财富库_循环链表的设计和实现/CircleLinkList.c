@@ -121,7 +121,6 @@ int CircleLinkList_Insert(CircleLinkList *list,TCircleLinkListNode*node, int pos
 			//游标的设置
 		    sList->slider = node;
  	    }
-		sList->length++;
 
 	//	//若头插法
 		if( current == (TCircleLinkListNode*)sList )
@@ -131,6 +130,7 @@ int CircleLinkList_Insert(CircleLinkList *list,TCircleLinkListNode*node, int pos
 			//是的最后一个节点内存储第一个节点的地址
 			 last->next = current->next; //3
 		}
+			sList->length++;
 	}
 	return 0;
 }
