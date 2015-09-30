@@ -205,7 +205,7 @@ TCircleLinkListNode *CircleLinkList_Delete(CircleLinkList *list,int pos)
 			tlist->Header.next = NULL;
 			tlist->slider = NULL;
 		}
-	return NULL;
+	return tmp;
 }
 /*注意在插入个删除节点的过程中药记得把链表的长度*/
 
