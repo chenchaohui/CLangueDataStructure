@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "企业级财富库队列_之顺序队列", "企业级财富库队列_之顺序队列\企业级财富库队列_之顺序队列.vcxproj", "{F285094A-1728-45BF-AAEC-0BB6B4BE505A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F285094A-1728-45BF-AAEC-0BB6B4BE505A}.Debug|Win32.ActiveCfg = Debug|Win32
+		{F285094A-1728-45BF-AAEC-0BB6B4BE505A}.Debug|Win32.Build.0 = Debug|Win32
+		{F285094A-1728-45BF-AAEC-0BB6B4BE505A}.Release|Win32.ActiveCfg = Release|Win32
+		{F285094A-1728-45BF-AAEC-0BB6B4BE505A}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
