@@ -9,6 +9,7 @@ typedef struct BITNode
 }BITNode,*BTree;
 
 /***********二叉树中序遍历的非递归算法***********/
+//这个函数主要处理结点有没有左子树，有左子树要怎样处理，没有左子树要怎样处理
 BITNode *GoFarLeft(BITNode *T,stack<BITNode *>&s)
 {
 	if (T == NULL)
@@ -23,6 +24,7 @@ BITNode *GoFarLeft(BITNode *T,stack<BITNode *>&s)
 	return T;
 }
 
+//这个函数主要处理结点有没有右子树，有右子树该如何处理，没有右子树该如何处理，栈为空该如何处理。
 void InOrder2(BITNode *T)
 {
    stack<BITNode *>s;
