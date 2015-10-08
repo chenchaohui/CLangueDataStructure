@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "先序序列加空格或其他特殊字符创建二叉树", "先序序列加空格或其他特殊字符创建二叉树\先序序列加空格或其他特殊字符创建二叉树.vcxproj", "{96A0F4BD-B802-4221-BB79-A825A49F8FBC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{96A0F4BD-B802-4221-BB79-A825A49F8FBC}.Debug|Win32.ActiveCfg = Debug|Win32
+		{96A0F4BD-B802-4221-BB79-A825A49F8FBC}.Debug|Win32.Build.0 = Debug|Win32
+		{96A0F4BD-B802-4221-BB79-A825A49F8FBC}.Release|Win32.ActiveCfg = Release|Win32
+		{96A0F4BD-B802-4221-BB79-A825A49F8FBC}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
